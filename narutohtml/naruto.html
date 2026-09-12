@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Naruto Shippuden — Path of the Shinobi</title>
+<meta name="description" content="A cinematic Naruto Shippuden fan tribute — characters, lore, arcs, and media in a premium dark shinobi-inspired design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Noto+Serif+JP:wght@500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="loader" aria-hidden="true">
+  <div class="loader-ring"><span></span><span></span><span></span></div>
+</div>
+
+<a href="#top" id="top"></a>
+
+<header class="nav" id="siteNav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand">
+      <svg class="brand-mark" viewBox="0 0 60 60"><circle cx="30" cy="30" r="27" fill="none" stroke="#e2273f" stroke-width="2"/><circle cx="30" cy="12" r="4" fill="#ff7a1a"/><circle cx="17" cy="40" r="4" fill="#ff7a1a"/><circle cx="43" cy="40" r="4" fill="#ff7a1a"/></svg>
+      <span class="brand-text">NARUTO <b>SHIPPUDEN</b></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#characters">Characters</a>
+      <a href="#arcs">Arcs</a>
+      <a href="#top10">Rankings</a>
+      <a href="#media">Media</a>
+      <a href="#poll">Fan Poll</a>
+    </nav>
+    <a href="#poll" class="nav-cta">Join the Poll</a>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#characters">Characters</a>
+  <a href="#arcs">Arcs</a>
+  <a href="#top10">Rankings</a>
+  <a href="#media">Media</a>
+  <a href="#poll">Fan Poll</a>
+</div>
+
+<marquee behavior="alternate" scrollamount="4" style="background:linear-gradient(90deg,#1a0603,#2a0d05,#1a0603); color:#f0a83c; font-family:'Noto Serif JP',serif; letter-spacing:.2em; font-size:.72rem; padding:7px 0; border-bottom:1px solid rgba(212,175,106,.2); text-transform:uppercase;">
+  A shinobi's path is never straight — believe it &nbsp;•&nbsp; Ayush's Naruto Shippuden Tribute &nbsp;•&nbsp; Hidden Leaf Village est. fan page &nbsp;•&nbsp; The will of fire never dies &nbsp;•&nbsp;
+</marquee>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-embers" id="embers"></div>
+    <svg class="hero-ring" viewBox="0 0 200 200" aria-hidden="true">
+      <circle cx="100" cy="100" r="92" fill="none" stroke="#e2273f" stroke-opacity=".35" stroke-width="1.5"/>
+      <circle cx="100" cy="100" r="70" fill="none" stroke="#ff7a1a" stroke-opacity=".25" stroke-width="1"/>
+      <circle cx="100" cy="26" r="7" fill="#e2273f" fill-opacity=".55"/>
+      <circle cx="55" cy="130" r="7" fill="#ff7a1a" fill-opacity=".55"/>
+      <circle cx="145" cy="130" r="7" fill="#d4af6a" fill-opacity=".5"/>
+    </svg>
+    <div class="wrap hero-content">
+      <div class="hero-eyebrow">Hidden Leaf Village Archives</div>
+      <h1>THE PATH OF<span class="line2">NARUTO SHIPPUDEN</span></h1>
+      <p class="hero-sub"><strong>Naruto Shippuden</strong> continues Naruto Uzumaki's story after a time-skip, as he grows stronger and faces threats that will decide the fate of the shinobi world.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-scroll="#characters">Meet the Shinobi</button>
+        <button class="btn btn-ghost" data-scroll="#arcs">Explore the Arcs</button>
+      </div>
+      <div class="hero-stats">
+        <div><span class="num">500</span><span class="lbl">Episodes total</span></div>
+        <div><span class="num">9</span><span class="lbl">Tailed Beasts</span></div>
+        <div><span class="num">5</span><span class="lbl">Great Nations</span></div>
+        <div><span class="num">∞</span><span class="lbl">Will of Fire</span></div>
+      </div>
+    </div>
+    <div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
+  </section>
+
+  <div class="divider"><svg viewBox="0 0 40 40" fill="none" stroke="#d4af6a" stroke-width="1.4"><circle cx="20" cy="20" r="17"/><path d="M20 3 v6 M20 31 v6 M3 20 h6 M31 20 h6"/></svg></div>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="glass glow-border about-card reveal">
+          <span class="eyebrow">Chapter One</span>
+          <h2 style="font-size:clamp(1.7rem,3.4vw,2.2rem); margin-bottom:18px;">About the Saga</h2>
+          <p><strong>Naruto Shippuden</strong> continues Naruto Uzumaki's story after a time-skip as he grows stronger and faces larger threats.</p>
+          <p><mark>Friendship</mark>, <em>perseverance</em>, and <u>redemption</u> are the main themes running through every arc, every battle, and every bond formed along the way.</p>
+        </div>
+        <div class="pillars reveal-stagger reveal">
+          <div class="pillar">
+            <span class="glyph"></span>
+            <div><h4>Bonds over power</h4><span>Team 7's growth is measured in trust, not just jutsu.</span></div>
+          </div>
+          <div class="pillar">
+            <span class="glyph"></span>
+            <div><h4>A title earned</h4><span>The rank of <abbr title="Hokage">Hokage</abbr> is the village's highest honor.</span></div>
+          </div>
+          <div class="pillar">
+            <span class="glyph"></span>
+            <div><h4>Scars into strength</h4><span>Every character's past shapes the shinobi they become.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider band-alt"><svg viewBox="0 0 40 40" fill="none" stroke="#e2273f" stroke-width="1.4"><path d="M20 4 L20 36 M8 12 L32 28 M32 12 L8 28"/></svg></div>
+
+  <!-- ============ CHARACTERS ============ -->
+  <section id="characters">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Chapter Two</span>
+        <h2>Main Characters</h2>
+        <p class="sub">The shinobi whose choices carry the story — each shaped by loss, loyalty, and the will to protect what matters.</p>
+      </div>
+      <div class="char-grid reveal-stagger reveal">
+        <div class="glass char-card">
+          <div class="char-media"><span class="char-initial">N</span></div>
+          <div class="char-body">
+            <span class="char-role">Jinchūriki · Team 7</span>
+            <h3 class="char-name">Naruto Uzumaki</h3>
+            <p class="char-desc">An unpredictable, never-give-up ninja who becomes the bridge between the Nine-Tails and peace itself.</p>
+          </div>
+        </div>
+        <div class="glass char-card">
+          <div class="char-media"><span class="char-initial">S</span></div>
+          <div class="char-body">
+            <span class="char-role">Last Uchiha · Team 7</span>
+            <h3 class="char-name">Sasuke Uchiha</h3>
+            <p class="char-desc">Driven by vengeance and later redemption, his path tests everything Team 7 stands for.</p>
+          </div>
+        </div>
+        <div class="glass char-card">
+          <div class="char-media"><span class="char-initial">S</span></div>
+          <div class="char-body">
+            <span class="char-role">Medical Ninja · Team 7</span>
+            <h3 class="char-name">Sakura Haruno</h3>
+            <p class="char-desc">Trained under Tsunade, she grows from teammate into one of the village's finest healers and fighters.</p>
+          </div>
+        </div>
+        <div class="glass char-card">
+          <div class="char-media"><span class="char-initial">K</span></div>
+          <div class="char-body">
+            <span class="char-role">Copy Ninja · Sensei</span>
+            <h3 class="char-name">Kakashi Hatake</h3>
+            <p class="char-desc">The calm, sharingan-wielding mentor who holds Team 7 together through every storm.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="band-alt">
+    <div class="wrap reveal">
+      <div class="stats-strip">
+        <div class="stat-cell"><span class="num">7</span><div class="lbl">Akatsuki Members</div></div>
+        <div class="stat-cell"><span class="num">4</span><div class="lbl">Great Ninja Wars</div></div>
+        <div class="stat-cell"><span class="num">3</span><div class="lbl">Sannin</div></div>
+        <div class="stat-cell"><span class="num">1</span><div class="lbl">Will of Fire</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><svg viewBox="0 0 40 40" fill="none" stroke="#f0a83c" stroke-width="1.4"><path d="M6 20 Q20 4 34 20 Q20 36 6 20 Z"/></svg></div>
+
+  <!-- ============ ARCS / TIMELINE ============ -->
+  <section id="arcs">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Chapter Three</span>
+        <h2>Path Through the Arcs</h2>
+        <p class="sub">A rough chronology of the road from genin to the Fourth Great Ninja War — order matters here, so each stage is numbered.</p>
+      </div>
+      <div class="timeline reveal">
+        <div class="tl-item"><span class="tl-dot"></span><span class="tl-num">Arc 01</span><h4>Homecoming</h4><p>Naruto returns from training with Jiraiya, and Team 7 reunites under a very different shadow.</p></div>
+        <div class="tl-item"><span class="tl-dot"></span><span class="tl-num">Arc 02</span><h4>Akatsuki Rising</h4><p>The hunt for the Tailed Beasts accelerates, and the cost of the Akatsuki's plan becomes clear.</p></div>
+        <div class="tl-item"><span class="tl-dot"></span><span class="tl-num">Arc 03</span><h4>Pain's Assault</h4><p>The Hidden Leaf faces its greatest single threat yet, testing Naruto's resolve to protect it.</p></div>
+        <div class="tl-item"><span class="tl-dot"></span><span class="tl-num">Arc 04</span><h4>The Shinobi Alliance</h4><p>Nations that once warred are forced to unite against a common, world-ending enemy.</p></div>
+        <div class="tl-item"><span class="tl-dot"></span><span class="tl-num">Arc 05</span><h4>Fourth Great Ninja War</h4><p>Every bond built across the series is tested on one battlefield, for the future of the shinobi world.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TOP 10 ============ -->
+  <section id="top10" class="band-alt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Chapter Four</span>
+        <h2>Top 10 Strongest Characters</h2>
+        <p class="sub">A fan ranking of raw power across the series, from breakout prodigies to god-tier threats.</p>
+      </div>
+      <div class="table-wrap glass reveal">
+        <table>
+          <caption>Top 10 Strongest Characters in Naruto Shippuden</caption>
+          <thead>
+            <tr><th>Rank</th><th>Character</th><th>Notable Power</th><th>First Appearance</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="rank-badge">1</span></td><td>Naruto Uzumaki</td><td>Sage of Six Paths</td><td><time datetime="2007">2007</time></td></tr>
+            <tr><td><span class="rank-badge">2</span></td><td>Sasuke Uchiha</td><td>Rinnegan</td><td><time datetime="2007">2007</time></td></tr>
+            <tr><td><span class="rank-badge">3</span></td><td>Madara Uchiha</td><td>Ten-Tails Power</td><td><time datetime="2016">2016</time></td></tr>
+            <tr><td><span class="rank-badge">4</span></td><td>Kaguya Ōtsutsuki</td><td>Chakra Goddess</td><td><time datetime="2016">2016</time></td></tr>
+            <tr><td><span class="rank-badge">5</span></td><td>Hashirama Senju</td><td>Wood Release</td><td><time datetime="2006">2006</time></td></tr>
+            <tr><td><span class="rank-badge">6</span></td><td>Itachi Uchiha</td><td>Tsukuyomi</td><td><time datetime="2005">2005</time></td></tr>
+            <tr><td><span class="rank-badge">7</span></td><td>Minato Namikaze</td><td>Flying Raijin</td><td><time datetime="2004">2004</time></td></tr>
+            <tr><td><span class="rank-badge">8</span></td><td>Obito Uchiha</td><td>Kamui</td><td><time datetime="2016">2016</time></td></tr>
+            <tr><td><span class="rank-badge">9</span></td><td>Kabuto Yakushi</td><td>Sage Mode</td><td><time datetime="2009">2009</time></td></tr>
+            <tr><td><span class="rank-badge">10</span></td><td>Gaara</td><td>Sand Manipulation</td><td><time datetime="2003">2003</time></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><svg viewBox="0 0 40 40" fill="none" stroke="#e2273f" stroke-width="1.4"><circle cx="20" cy="20" r="4"/><circle cx="20" cy="8" r="3"/><circle cx="10" cy="27" r="3"/><circle cx="30" cy="27" r="3"/></svg></div>
+
+  <!-- ============ MEDIA ============ -->
+  <section id="media">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Chapter Five</span>
+        <h2>Images &amp; Media</h2>
+        <p class="sub">Stills, sound, and motion from the archive — restyled, not replaced.</p>
+      </div>
+      <div class="media-grid reveal">
+        <div class="glass media-card span-full">
+          <h4>Featured Still</h4>
+          <figure class="img-frame">
+            <img src="shippuden.jpeg" alt="Naruto Shippuden image" width="1200" height="500" loading="lazy">
+            <figcaption>Naruto Shippuden image</figcaption>
+          </figure>
+        </div>
+        <div class="glass media-card">
+          <h4>Gallery</h4>
+          <picture class="img-frame">
+            <img src="images.jpeg" alt="Fallback image" loading="lazy">
+          </picture>
+        </div>
+        <div class="glass media-card">
+          <h4>Theme — Sadness and Sorrow</h4>
+          <audio controls>
+            <source src="naruto_sadness-and-sorrow.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+          </audio>
+        </div>
+        <div class="glass media-card span-full">
+          <h4>Naruto vs. Sasuke — Final Battle</h4>
+          <video controls poster="shippuden.jpeg">
+            <source src="[4K CC] Naruto VS Sasuke P1 Twixtor.mp4" type="video/mp4">
+            Your browser does not support video.
+          </video>
+        </div>
+        <div class="glass media-card">
+          <h4>Live Canvas</h4>
+          <canvas id="canvas1" width="300" height="80">Canvas not supported</canvas>
+        </div>
+        <div class="glass media-card">
+          <h4>Emblem (SVG)</h4>
+          <div class="svg-frame">
+            <svg width="120" height="60" viewBox="0 0 120 60">
+              <rect width="120" height="60" rx="8"></rect>
+              <text x="16" y="36" font-size="20">Naruto</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUOTES ============ -->
+  <section class="band-alt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Words That Carry Weight</span>
+        <h2>From the Shinobi</h2>
+      </div>
+      <div class="quote-grid reveal-stagger reveal">
+        <div class="glass glow-border quote-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#ff7a1a" stroke-width="1.5"><path d="M7 8c-3 1-4 4-4 7h5V9H7Zm10 0c-3 1-4 4-4 7h5V9h-1Z"/></svg>
+          <p class="q">"I never go back on my word — that is my ninja way."</p>
+          <div class="who">— Naruto Uzumaki</div>
+        </div>
+        <div class="glass glow-border quote-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e2273f" stroke-width="1.5"><path d="M7 8c-3 1-4 4-4 7h5V9H7Zm10 0c-3 1-4 4-4 7h5V9h-1Z"/></svg>
+          <p class="q">Power means nothing without people worth protecting.</p>
+          <div class="who">— Sakura Haruno</div>
+        </div>
+        <div class="glass glow-border quote-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#d4af6a" stroke-width="1.5"><path d="M7 8c-3 1-4 4-4 7h5V9H7Zm10 0c-3 1-4 4-4 7h5V9h-1Z"/></svg>
+          <p class="q">Those who break the rules are trash — but abandoning your friends makes you worse.</p>
+          <div class="who">— Kakashi Hatake</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><svg viewBox="0 0 40 40" fill="none" stroke="#f0a83c" stroke-width="1.4"><path d="M20 5v30M5 20h30"/></svg></div>
+
+  <!-- ============ FORMS ============ -->
+  <section id="poll">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Chapter Six</span>
+        <h2>Fan Poll &amp; Inputs</h2>
+        <p class="sub">Tell us where your loyalty lies in the shinobi world.</p>
+      </div>
+      <form class="glass form-shell reveal" onsubmit="return false;">
+        <fieldset>
+          <legend>Fan Poll</legend>
+          <div class="form-grid">
+            <div class="field"><label for="fan">Name</label><input type="text" id="fan" name="fan" placeholder="Your name"></div>
+            <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="you@leafvillage.com"></div>
+            <div class="field full">
+              <label for="fav">Favorite Character</label>
+              <input list="chars" id="fav" name="fav" placeholder="Start typing...">
+              <datalist id="chars">
+                <option value="Naruto">
+                <option value="Sasuke">
+                <option value="Itachi">
+              </datalist>
+            </div>
+            <div class="field"><label for="age">Age</label><input type="number" id="age" min="10" max="99" placeholder="10–99"></div>
+            <div class="field"><label for="color">Favorite Chakra Color</label><input type="color" id="color" value="#ff7a1a"></div>
+            <div class="field"><label for="pdate">Date</label><input type="date" id="pdate"></div>
+            <div class="field"><label for="ptime">Time</label><input type="time" id="ptime"></div>
+            <div class="field full"><label for="upload">Upload Fanart</label><input type="file" id="upload"></div>
+            <div class="field full">
+              <label>Hype Meter</label>
+              <meter value="0.7" min="0" max="1">70%</meter>
+            </div>
+            <div class="field full">
+              <label>Submission Progress</label>
+              <progress value="30" max="100">30%</progress>
+            </div>
+            <div class="field full"><label for="msg">Message</label><textarea id="msg" rows="3" placeholder="Why is this your favorite arc?"></textarea></div>
+          </div>
+          <div class="submit-row">
+            <button type="submit" class="btn btn-primary">Submit Vote</button>
+            <span style="font-size:.85rem;color:var(--mist-dim);">Your response stays within this fan page.</span>
+          </div>
+        </fieldset>
+      </form>
+      <form class="glass form-shell reveal" style="margin-top:22px;" onsubmit="return false;">
+        <label for="keygen-field" style="display:flex; flex-direction:column; gap:8px;">
+          <span>Generate a key (legacy <code>&lt;keygen&gt;</code> element)</span>
+          <keygen id="keygen-field" name="key"></keygen>
+        </label>
+        <p class="deprecated-note">Note: <code>&lt;keygen&gt;</code> is deprecated and no longer rendered by modern browsers — kept here to preserve the original tag showcase.</p>
+      </form>
+    </div>
+  </section>
+
+  <div class="divider"><svg viewBox="0 0 40 40" fill="none" stroke="#e2273f" stroke-width="1.4"><path d="M8 8h24v24H8z"/><path d="M8 20h24M20 8v24"/></svg></div>
+
+  <!-- ============ OTHER TAGS ============ -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Chapter Seven</span>
+        <h2>From the Ninja Scrolls</h2>
+        <p class="sub">The remaining tags of the archive, folded into one final scroll.</p>
+      </div>
+      <div class="scroll-card glass reveal">
+        <details open>
+          <summary>Click to expand — a shinobi's vow</summary>
+          <blockquote cite="https://naruto.fandom.com">I never go back on my word! That is my ninja way!</blockquote>
+          <pre><code>function rasengan(){ return "Rasengan"; }</code></pre>
+          <p style="margin-top:16px; color:var(--mist-dim);">Keyboard: <kbd>Ctrl</kbd>+<kbd>N</kbd></p>
+          <p style="margin-top:10px; color:var(--mist-dim);">Sample output: <samp>OK</samp></p>
+        </details>
+
+        <address>Contact: <a href="mailto:fan@example.com">fan@example.com</a></address>
+
+        <div class="misc-embeds">
+          <iframe srcdoc="<body style='margin:0;background:#121016;color:#ece6da;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100%;'>Naruto iframe demo</body>" width="220" height="110" title="Naruto iframe demo"></iframe>
+          <object data="" type="application/pdf" width="220" height="110">PDF not loaded</object>
+          <embed src="" width="220" height="110" />
+        </div>
+
+        <map name="demo-map"><area shape="rect" coords="0,0,100,50" href="#" alt="rect"></map>
+        <figure class="img-frame" style="margin-top:22px; max-width:280px;">
+          <img src="images2.jpeg" usemap="#demo-map" alt="map">
+        </figure>
+
+        <span class="data-chip">Archive Index <b><data value="9001">9001</data></b></span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-text">NARUTO <b>SHIPPUDEN</b></span>
+        <p>A fan-made tribute page celebrating the Hidden Leaf, its shinobi, and the will of fire that never dies.</p>
+        <div class="social-row" style="margin-top:18px;">
+          <a href="#" aria-label="Site link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ece6da" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 4 6 4 9s-1.5 6.5-4 9c-2.5-2.5-4-6-4-9s1.5-6.5 4-9Z"/></svg></a>
+          <a href="#" aria-label="Community link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ece6da" stroke-width="1.6"><path d="M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 20c0-3 3-5 5-5m10 0c2 0 5 2 5 5"/></svg></a>
+          <a href="#" aria-label="Scroll archive"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ece6da" stroke-width="1.6"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h5"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <a href="#about">About</a>
+        <a href="#characters">Characters</a>
+        <a href="#arcs">Arcs</a>
+        <a href="#top10">Rankings</a>
+      </div>
+      <div class="footer-col">
+        <h5>Archive</h5>
+        <a href="#media">Media</a>
+        <a href="#poll">Fan Poll</a>
+        <a href="#top">Back to Top</a>
+      </div>
+      <div class="footer-col">
+        <h5>Village</h5>
+        <a href="#">Hidden Leaf</a>
+        <a href="#">Sand</a>
+        <a href="#">Mist</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Naruto Shippuden Fan Tribute — made by Ayush. Not affiliated with the official franchise.</span>
+      <span>Built with chakra, patience, and clean HTML.</span>
+    </div>
+  </div>
+</footer>
+
+<button id="wayfinder" aria-label="Scroll progress, back to top">
+  <svg viewBox="0 0 60 60">
+    <defs>
+      <linearGradient id="wayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#e2273f"/>
+        <stop offset="100%" stop-color="#ff9d4d"/>
+      </linearGradient>
+    </defs>
+    <circle class="progress-ring-bg" cx="30" cy="30" r="26" fill="none" stroke-width="3"></circle>
+    <circle class="progress-ring-fg" id="progressRing" cx="30" cy="30" r="26" fill="none" stroke-width="3" stroke-dasharray="163.4" stroke-dashoffset="163.4"></circle>
+    <g class="tomoe">
+      <circle cx="30" cy="16" r="3.4" fill="#e2273f"/>
+      <circle cx="19" cy="38" r="3.4" fill="#ff7a1a"/>
+      <circle cx="41" cy="38" r="3.4" fill="#d4af6a"/>
+    </g>
+  </svg>
+</button>
+
+<script>
+(function(){
+  // ---- Loader ----
+  window.addEventListener('load', function(){
+    var l = document.getElementById('loader');
+    setTimeout(function(){ l.classList.add('hide'); }, 550);
+  });
+
+  // ---- Embers ----
+  var emberField = document.getElementById('embers');
+  var count = window.innerWidth < 700 ? 12 : 22;
+  for(var i=0;i<count;i++){
+    var e = document.createElement('span');
+    e.className = 'ember';
+    var size = 3 + Math.random()*7;
+    e.style.width = size+'px';
+    e.style.height = size+'px';
+    e.style.left = (Math.random()*100)+'%';
+    e.style.setProperty('--drift', (Math.random()*80-40)+'px');
+    e.style.animationDuration = (7+Math.random()*9)+'s';
+    e.style.animationDelay = (Math.random()*10)+'s';
+    emberField.appendChild(e);
+  }
+
+  // ---- Sticky nav ----
+  var nav = document.getElementById('siteNav');
+  function onScroll(){
+    if(window.scrollY > 24){ nav.classList.add('scrolled'); } else { nav.classList.remove('scrolled'); }
+    updateProgress();
+  }
+  window.addEventListener('scroll', onScroll, { passive:true });
+
+  // ---- Mobile menu ----
+  var burger = document.getElementById('burger');
+  var menu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', function(){
+    var open = burger.classList.toggle('open');
+    menu.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      burger.classList.remove('open');
+      menu.classList.remove('open');
+      burger.setAttribute('aria-expanded','false');
+    });
+  });
+
+  // ---- Smooth scroll for data-scroll buttons ----
+  document.querySelectorAll('[data-scroll]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var target = document.querySelector(btn.getAttribute('data-scroll'));
+      if(target){ target.scrollIntoView({ behavior:'smooth' }); }
+    });
+  });
+
+  // ---- Ripple effect ----
+  document.querySelectorAll('.btn').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      var rect = btn.getBoundingClientRect();
+      var r = document.createElement('span');
+      r.className = 'ripple';
+      var size = Math.max(rect.width, rect.height);
+      r.style.width = r.style.height = size+'px';
+      r.style.left = (e.clientX - rect.left - size/2)+'px';
+      r.style.top = (e.clientY - rect.top - size/2)+'px';
+      btn.appendChild(r);
+      setTimeout(function(){ r.remove(); }, 700);
+    });
+  });
+
+  // ---- Reveal on scroll ----
+  var reveals = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold:0.15, rootMargin:'0px 0px -60px 0px' });
+    reveals.forEach(function(el){ io.observe(el); });
+  } else {
+    reveals.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  // ---- Wayfinder scroll progress + back-to-top ----
+  var wayfinder = document.getElementById('wayfinder');
+  var ring = document.getElementById('progressRing');
+  var CIRC = 2 * Math.PI * 26;
+  ring.style.strokeDasharray = CIRC;
+  function updateProgress(){
+    var h = document.documentElement;
+    var scrolled = h.scrollTop || document.body.scrollTop;
+    var max = (h.scrollHeight - h.clientHeight) || 1;
+    var pct = Math.min(scrolled / max, 1);
+    ring.style.strokeDashoffset = CIRC * (1 - pct);
+    if(scrolled > 400){ wayfinder.classList.add('show'); } else { wayfinder.classList.remove('show'); }
+  }
+  wayfinder.addEventListener('click', function(){
+    window.scrollTo({ top:0, behavior:'smooth' });
+  });
+  updateProgress();
+
+  // ---- Canvas demo (preserved) ----
+  var c = document.getElementById('canvas1');
+  if(c && c.getContext){
+    var ctx = c.getContext('2d');
+    var grad = ctx.createLinearGradient(0,0,300,0);
+    grad.addColorStop(0, '#e2273f');
+    grad.addColorStop(1, '#ff9d4d');
+    ctx.fillStyle = '#1b171d';
+    ctx.fillRect(0,0,300,80);
+    ctx.fillStyle = grad;
+    ctx.font = '16px Inter, sans-serif';
+    ctx.fillText('Canvas demo — Naruto', 14, 44);
+  }
+})();
+</script>
+
+</body>
+</html>
